@@ -473,7 +473,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#1BB934"
+        "foreground": "#A9C7DF"
       }
     },
     {
@@ -482,7 +482,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#FFC92F"
+        "foreground": "#A9C7DF"
       }
     },
     {
@@ -491,7 +491,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#ff6340"
+        "foreground": "#A9C7DF"
       }
     },
     {
