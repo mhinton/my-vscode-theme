@@ -237,6 +237,13 @@
       }
     },
     {
+      "name": "Vue Expression",
+      "scope": "expression.embedded.vue variable.other.readwrite.js",
+      "settings": {
+        "foreground": "#e9d4a6"
+      }
+    },
+    {
       "name": "String, Symbols, Inherited Class, Markup Heading",
       "scope": [
         "string",
