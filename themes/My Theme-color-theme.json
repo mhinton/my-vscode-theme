@@ -24,6 +24,7 @@
     "list.inactiveSelectionBackground": "#232D3D",
     "list.hoverBackground": "#283243",
     "panel.border": "#0F121A",
+    "panel.background": "#141923",
     "sideBarTitle.foreground": "#FAFBFC",
     "sideBar.background": "#171e29",
     "sideBar.border": "#0F121A",
@@ -65,7 +66,7 @@
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#EEEEEE"
+        "foreground": "#eeeeee"
       }
     },
     {
@@ -163,7 +164,7 @@
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#EEEEEE"
+        "foreground": "#eeeeee"
       }
     },
     {
@@ -240,9 +241,16 @@
     },
     {
       "name": "Vue Expression",
-      "scope": "expression.embedded.vue variable.other.readwrite.js",
+      "scope": [
+        "expression.embedded.vue variable.other.readwrite.js",
+        "source.directive.vue variable.other.readwrite.js",
+        "source.directive.vue variable.other.object.js",
+        "source.directive.vue variable.other.property.js",
+        "expression.embedded.vue variable.other.object.js",
+        "expression.embedded.vue variable.other.property.js"
+      ],
       "settings": {
-        "foreground": "#e9d4a6"
+        "foreground": "#f8c595"
       }
     },
     {
@@ -365,7 +373,7 @@
       "scope": ["entity.other.attribute-name"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#35ffee"
+        "foreground": "#26C2C9"
       }
     },
     {
@@ -490,7 +498,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#A9C7DF"
+        "foreground": "#AB7EF6"
       }
     },
     {
@@ -499,7 +507,6 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "Xforeground": "#d4cead",
         "foreground": "#bda975"
       }
     },
