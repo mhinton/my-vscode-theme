@@ -3,21 +3,26 @@
     "activityBar.background": "#141923",
     "activityBar.border": "#0F121A",
     "activityBarBadge.background": "#232D3D",
-    "breadcrumb.background": "#141923",
-    "breadcrumb.foreground": "#EAEBEC",
+    "breadcrumb.background": "#181e2e",
+    "breadcrumb.foreground": "#e2e3e4",
     "dropdown.background": "#151C27",
-    "editor.background": "#171e29",
+    "editor.background": "#151B26",
     "editor.findMatchBackground": "#2d4e7a",
     "editor.findMatchBorder": "#fff5cd91",
     "editor.findMatchHighlightBackground": "#612c23a8",
     "editor.foreground": "#E8E8EF",
-    "editor.lineHighlightBackground": "#171e29",
+    "editor.lineHighlightBackground": "#181e2e",
+    "editor.selectionBackground": "#1f3350",
     "editor.selectionHighlightBackground": "#4941405a",
-    "editorGroupHeader.tabsBackground": "#171e29",
+    "editorGroupHeader.tabsBackground": "#181e2e",
     "editorGroupHeader.tabsBorder": "#0F121A",
-    "editorGutter.background": "#1C2532",
+    "editorGutter.background": "#151B22",
     "editorLineNumber.activeForeground": "#FFF5CD",
     "editorLineNumber.foreground": "#6A83A7",
+    "XeditorSuggestWidget.background": "#172739",
+    "XeditorSuggestWidget.border": "#141e29",
+    "XeditorSuggestWidget.selectedBackground": "#2a59cf",
+    "XeditorSuggestWidget.highlightForeground": "#fecb57",
     "input.background": "#1C2532",
     "input.border": "#0F121A",
     "input.foreground": "#EEEEEE",
@@ -28,9 +33,9 @@
     "list.inactiveSelectionBackground": "#232D3D",
     "panel.background": "#141923",
     "panel.border": "#0F121A",
-    "sideBar.background": "#171e29",
+    "sideBar.background": "#151B26",
     "sideBar.border": "#0F121A",
-    "sideBarSectionHeader.background": "#232D3D",
+    "sideBarSectionHeader.background": "#141924",
     "sideBarSectionHeader.border": "#0F121A",
     "sideBarTitle.foreground": "#FAFBFC",
     "statusBar.background": "#141923",
@@ -38,9 +43,12 @@
     "statusBar.foreground": "#A9C7DF",
     "statusBar.noFolderBackground": "#280d30",
     "statusBar.noFolderForeground": "#a8a8a8",
-    "tab.activeBackground": "#323E4F",
-    "tab.inactiveBackground": "#171e29",
-    "tab.inactiveForeground": "#A9C7DF"
+    "tab.activeBackground": "#1d2438",
+    "tab.activeBorder": "#3899c0",
+    "tab.inactiveBackground": "#181e2e",
+    "tab.inactiveForeground": "#A9C7DF",
+    "titleBar.activeBackground": "#0F121A",
+    "titleBar.activeForeground": "#FFFFFF"
   },
   "name": "My Theme",
   "tokenColors": [
@@ -92,7 +100,7 @@
     },
     {
       "name": "Key",
-      "scope": "meta.object-literal.key.js",
+      "scope": ["meta.object-literal.key.js"],
       "settings": {
         "foreground": "#77D9D5"
       }
@@ -195,7 +203,7 @@
       "name": "Function Argument",
       "scope": "variable.parameter",
       "settings": {
-        "foreground": "#DCA48E"
+        "foreground": "#ffc1dc"
       }
     },
     {
