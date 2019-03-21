@@ -8,17 +8,17 @@
     "dropdown.background": "#151C27",
     "editor.background": "#151B26",
     "editor.findMatchBackground": "#2d4e7a",
-    "editor.findMatchBorder": "#fff5cd91",
-    "editor.findMatchHighlightBackground": "#612c23a8",
+    "editor.findMatchBorder": "#b4ae9d",
+    "editor.findMatchHighlightBackground": "#47434C",
     "editor.foreground": "#E8E8EF",
     "editor.lineHighlightBackground": "#181e2e",
-    "editor.selectionBackground": "#1f3350",
+    "editor.selectionBackground": "#2d4e7a",
     "editor.selectionHighlightBackground": "#4941405a",
     "editorGroupHeader.tabsBackground": "#181e2e",
     "editorGroupHeader.tabsBorder": "#0F121A",
     "editorGutter.background": "#151B22",
-    "editorLineNumber.activeForeground": "#FFF5CD",
-    "editorLineNumber.foreground": "#6A83A7",
+    "editorLineNumber.foreground": "#758ea1",
+    "editorLineNumber.activeForeground": "#2AB7BD",
     "XeditorSuggestWidget.background": "#172739",
     "XeditorSuggestWidget.border": "#141e29",
     "XeditorSuggestWidget.selectedBackground": "#2a59cf",
@@ -102,7 +102,7 @@
       "name": "Key",
       "scope": ["meta.object-literal.key.js"],
       "settings": {
-        "foreground": "#77D9D5"
+        "foreground": "#26C2C9"
       }
     },
     {
@@ -189,7 +189,6 @@
       "name": "Number, Constant, Tag Attribute, Embedded",
       "scope": [
         "constant.numeric",
-        "constant.language",
         "constant.character",
         "constant.escape",
         "keyword.other.unit",
@@ -197,6 +196,13 @@
       ],
       "settings": {
         "foreground": "#ff6340"
+      }
+    },
+    {
+      "name": "Language Constant",
+      "scope": "constant.language",
+      "settings": {
+        "foreground": "#c3def5"
       }
     },
     {
@@ -257,7 +263,7 @@
         "expression.embedded.vue variable.other.property.js"
       ],
       "settings": {
-        "foreground": "#f8c595"
+        "foreground": "#e2bd9a"
       }
     },
     {
